@@ -1,0 +1,18 @@
+[features]
+seeds = false
+
+[programs.localnet]
+solana_dapp = "4p7xxfk5gXg6y9fLY6686Cf3JPDVabJg8gwnPfBBoRDE"
+
+[programs.devnet]
+solana_dapp = "4p7xxfk5gXg6y9fLY6686Cf3JPDVabJg8gwnPfBBoRDE"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/pwarrior/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

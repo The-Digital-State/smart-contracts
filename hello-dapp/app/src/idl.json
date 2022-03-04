@@ -1,0 +1,14 @@
+{
+  "version": "0.1.0",
+  "name": "solana_dapp",
+  "instructions": [
+    {
+      "name": "hello",
+      "accounts": [],
+      "args": []
+    }
+  ],
+  "metadata": {
+    "address": "4p7xxfk5gXg6y9fLY6686Cf3JPDVabJg8gwnPfBBoRDE"
+  }
+}
